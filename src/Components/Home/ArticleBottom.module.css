@@ -1,0 +1,164 @@
+.home__article__bottom {
+	display: flex;
+	margin: 0 auto;
+	width: 95%;
+	height: 540px;
+}
+
+.home__article__bottom__left {
+	position: relative;
+	width: 33%;
+	height: 540px;
+	border: 1px solid rgb(206, 203, 203);
+}
+.home__article__bottom__left article {
+	height: 540px;
+	width: 80%;
+	margin-bottom: 60px;
+}
+
+.home__article__bottom__right {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	width: 67%;
+	height: 600px;
+
+	align-items: flex-end;
+	justify-content: flex-start;
+}
+.home__section__right__title {
+	margin-top: 30px;
+	position: absolute;
+	right: 50px;
+	font-family: "Market";
+	font-size: 2em;
+	font-weight: bold;
+}
+.home__section__right {
+	height: 240px;
+	width: 88%;
+	background-color: white;
+	margin-bottom: 60px;
+	display: flex;
+	flex-direction: row;
+	border: 1px rgb(206, 203, 203) solid;
+}
+
+.article__bottom__content {
+	width: 30%;
+	height: 100%;
+	margin-left: 10px;
+}
+.article__bottom__img {
+	width: 70%;
+	height: 100%;
+	object-fit: cover;
+}
+.home__article__bottom__left__footer {
+	position: relative;
+	margin-left: 10px;
+}
+.article__bottom__footer__button {
+	position: absolute;
+	bottom: 10px;
+	right: 20px;
+}
+.article__bottom__footer__button button {
+	background-color: #ff584d;
+	border: none;
+	margin-right: 10px;
+	height: 40px;
+	width: 100px;
+	border-radius: 0.5em;
+	font-family: "Glacial";
+	font-size: 1.1em;
+	cursor: pointer;
+}
+.article__bottom__content button {
+	background-color: #ff584d;
+	border: none;
+	margin-right: 10px;
+	height: 40px;
+	width: 100px;
+	border-radius: 0.5em;
+	font-family: "Glacial";
+	font-size: 1.1em;
+	cursor: pointer;
+}
+.article__bottom__content p {
+	font-family: "Glacial";
+}
+
+.home__article__bottom__left article {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+.home__article__bottom__left img {
+	width: 100%;
+	height: 78%;
+	object-fit: cover;
+	background-color: rgb(167, 167, 167);
+}
+
+.home__article__bottom__description {
+	font-size: 20px;
+	font-family: "Glacial";
+	margin-bottom: 5px;
+}
+
+.article__footer__notation__left {
+	margin-left: 10px;
+	margin-top: 20px;
+}
+.article__footer__notation:hover {
+	color: blue;
+	cursor: pointer;
+}
+
+.article__best__seller {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	width: 200px;
+	height: 50px;
+	background-color: #475465;
+	margin-top: 100px;
+	right: 100px;
+	font-family: "Market" !important;
+	color: white;
+	font-size: 2em;
+	animation: flash 1.2s linear infinite;
+	box-shadow: -3px 6px 28px -5px rgba(0, 0, 0, 0.42);
+}
+
+.article__best__seller__alexis {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	width: 200px;
+	height: 50px;
+	background-color: #475465;
+	margin-top: 120px;
+	left: 30px;
+	font-family: "Market" !important;
+	color: white;
+	font-size: 2em;
+	animation: flash 1.2s linear infinite;
+	box-shadow: -3px 6px 28px -5px rgba(0, 0, 0, 0.42);
+}
+
+@keyframes flash {
+	0% {
+		background-color: #475465;
+	}
+	50% {
+		background-color: #5b6c81;
+	}
+	100% {
+		background-color: #475465;
+	}
+}

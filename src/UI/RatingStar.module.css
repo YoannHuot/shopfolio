@@ -1,0 +1,10 @@
+.container__rating__star {
+	margin-top: 10px;
+}
+input[type="radio"] {
+	display: none;
+}
+
+.rating__star {
+	cursor: pointer;
+}
